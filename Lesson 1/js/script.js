@@ -42,4 +42,12 @@ answers[1] = +prompt("Enter operator", "");
 answers[2] = +prompt("Enter second num", "");
 //document.write(`${answers[0]} ${answers[2]} ${answers[1]}`); // Интреполяция работает только внутри таких символов ``
 
+   // Кратко о Git
 //Создание репозитория 1)git config --local user.name "Olzhas" 2)git config --local user.email testWP-02@yandex.ru Если мы хотим глобальный репозиторий, то вместо local ставим global.
+// 1) git add -A добавляем ВСЕ файлы в репозиторий. 2) git add имя.файла добавляем указанный файл в репозиторий. 3) git status проверяем статус репозитория.
+// 2) git add -a -m"Наше сообщение/описание" добавляем ВСЕ файлы и описание в репозиторий.
+// 3) git log это просмотр всех коммитов.
+// 4) Добавление проекта в удаленный репозиторий git remote add origin https://github.com/testWP-02/testgit.git После наш локальный репозиторий будет связан с удаленным.
+// 5) git commit -m "first commit" делаем коммит, после git branch -M main.
+// 6) Обновляем удаленный репозиторий через команду git push -u origin main После будет авторизация на сайте и готово!
+//Порядок добавления изменений в проекте в кратце: 1) git add -A 2)git commit -a -m"Сообщение" 3)git push 4) Работает только если пункты с 1-5 были выполнены!
